@@ -56,8 +56,8 @@ It allows you to write HTML and insert:
 
 HTML by itself is **static**:
 
-```html
 <p>Hello Vinayak</p>
+
 But Jinja2 makes HTML dynamic, allowing it to change based on Python data.
 
 Examples of usage:
@@ -89,10 +89,4 @@ Hello Vinayak!
 
 Here, {{ name }} is replaced with "Vinayak" by Jinja2.
 
-
-If you want, I can also make:  
-✔ a shorter summarised README  
-✔ a decorated README with emojis  
-✔ or add a Table of Contents  
-
-Just tell me!
+```html
